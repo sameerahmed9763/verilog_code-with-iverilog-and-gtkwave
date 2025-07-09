@@ -1,0 +1,94 @@
+$date
+	Wed Jul 09 15:20:01 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module register_tb $end
+$var wire 4 ! q [3:0] $end
+$var parameter 32 " N $end
+$var reg 4 # clear [3:0] $end
+$var reg 4 $ clk [3:0] $end
+$var reg 4 % d [3:0] $end
+$var reg 4 & load [3:0] $end
+$scope module dut $end
+$var wire 4 ' clear [3:0] $end
+$var wire 4 ( clk [3:0] $end
+$var wire 4 ) d [3:0] $end
+$var wire 4 * load [3:0] $end
+$var parameter 32 + N $end
+$var reg 4 , q [3:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b100 +
+b100 "
+$end
+#0
+$dumpvars
+bx ,
+b0 *
+b0 )
+b0 (
+b1 '
+b0 &
+b0 %
+b0 $
+b1 #
+bx !
+$end
+#5
+b1111 $
+b1111 (
+#10
+b0 !
+b0 ,
+b0 $
+b0 (
+b1 &
+b1 *
+b0 #
+b0 '
+b1 %
+b1 )
+#15
+b1111 $
+b1111 (
+#20
+b0 $
+b0 (
+b0 &
+b0 *
+b1 #
+b1 '
+#25
+b1111 $
+b1111 (
+#30
+b0 $
+b0 (
+b1 &
+b1 *
+#35
+b1 !
+b1 ,
+b1111 $
+b1111 (
+#40
+b0 !
+b0 ,
+b0 $
+b0 (
+b0 #
+b0 '
+#45
+b1111 $
+b1111 (
+#50
+b0 $
+b0 (
